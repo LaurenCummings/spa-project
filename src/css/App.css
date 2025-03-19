@@ -1,8 +1,40 @@
 body {
+    background-color: rgb(12, 1, 31);
     margin: 0px;
+}
+
+.banner {
+    position: relative;
 }
 
 .banner img {
     height: 500px;
     width: 100%;
+}
+
+.banner h1 {
+    color: rgb(255, 253, 208);
+    font-family: "Mr Dafoe", cursive;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 3px 3px grey;
+}
+
+.banner .welcome {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.banner .to {
+    position: absolute;
+    left: 42%;
+    top: 25%;
+}
+
+.banner .relaxation {
+    position: absolute;
+    left: 40%;
+    top: 45%;
 }

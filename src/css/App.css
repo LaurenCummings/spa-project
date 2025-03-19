@@ -26,16 +26,28 @@ body {
     position: absolute;
     left: 25%;
     top: 5%;
+    animation: headerFadeIn 1s ease-in;
 }
 
 .banner .to {
     position: absolute;
     left: 45%;
     top: 25%;
+    animation: headerFadeIn 2s ease-in;
 }
 
 .banner .relaxation {
     position: absolute;
     left: 48%;
     top: 45%;
+    animation: headerFadeIn 3s ease-in;
+}
+
+@keyframes headerFadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

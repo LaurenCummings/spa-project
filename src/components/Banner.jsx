@@ -1,6 +1,5 @@
 import '../css/Banner.css';
 import skyImg from '../assets/banner-img.webp';
-import logo from '../assets/logo.png';
 
 function Banner() {
     return (

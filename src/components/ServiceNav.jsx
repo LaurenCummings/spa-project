@@ -3,7 +3,7 @@ import '../css/ServiceNav.css';
 function ServiceNav() {
     return (
         <div className="service-nav">
-            <h1>Services</h1>
+            <h1>Our Services</h1>
             <div className="services">
                 <div className="service">
                     <h2>Massage</h2>

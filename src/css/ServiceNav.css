@@ -13,6 +13,17 @@
     border: thin black solid;
     border-radius: 8px;
     height: 300px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 1300px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
 }

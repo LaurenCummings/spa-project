@@ -1,6 +1,7 @@
 import './css/App.css';
 import Topbar from './components/Topbar.jsx';
 import Banner from './components/Banner.jsx';
+import ServiceNav from './components/ServiceNav.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Topbar />
       <Banner />
+      <ServiceNav />
       {/* <Footer /> */}
     </div>
   )

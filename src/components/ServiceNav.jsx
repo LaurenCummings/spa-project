@@ -1,5 +1,8 @@
 import '../css/ServiceNav.css';
 import massage from '../assets/massage.jpg';
+import skincare from '../assets/skincare.png';
+import nails from '../assets/nails.png';
+import stones from '../assets/stones.jpg';
 
 function ServiceNav() {
     return (
@@ -12,14 +15,17 @@ function ServiceNav() {
                     <button>Learn More</button>
                 </div>
                 <div className="service">
+                    <img src={skincare} alt="skincare" />
                     <h2>Skincare</h2>
                     <button>Learn More</button>
                 </div>
                 <div className="service">
+                    <img src={nails} alt="manicure" />
                     <h2>Nails</h2>
                     <button>Learn More</button>
                 </div>
                 <div className="service">
+                    <img src={stones} alt="stack of stones" />
                     <h2>Body Treatments</h2>
                     <button>Learn More</button>
                 </div>

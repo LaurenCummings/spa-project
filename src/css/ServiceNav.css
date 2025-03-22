@@ -16,6 +16,17 @@
     margin: 10px;
 }
 
+.service button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.service button:hover {
+    opacity: 0.9;
+}
+
 @media (max-width: 1300px) {
     .services {
         grid-template-columns: 1fr 1fr;

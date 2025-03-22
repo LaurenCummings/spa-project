@@ -5,23 +5,23 @@ function Massage() {
         <div className="massage">
             <h1>Massage Services</h1>
             <div className="massage-services">
-                <div>
+                <div className="massage-service">
                     <h2>Swedish Massage</h2>
                     <p>Paragraph describing Swedish Massage</p>
                 </div>
-                <div>
+                <div className="massage-service">
                     <h2>Deep Tissue Massage</h2>
                     <p>Paragraph describing Deep Tissue Massage</p>
                 </div>
-                <div>
+                <div className="massage-service">
                     <h2>Foot Massage</h2>
                     <p>Paragraph describing Foot Massage</p>
                 </div>
-                <div>
+                <div className="massage-service">
                     <h2>Hot Stone Massage</h2>
                     <p>Paragraph describing Hot Stone massage</p>
                 </div>
-                <div>
+                <div className="massage-service">
                     <h2>Back and Shoulder Massage</h2>
                     <p>Paragraph describing Back and Shoulder Massage</p>
                 </div>

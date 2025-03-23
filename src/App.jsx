@@ -3,6 +3,7 @@ import Topbar from './components/Topbar.jsx';
 import Banner from './components/Banner.jsx';
 import ServiceNav from './components/ServiceNav.jsx';
 import Massage from './components/Massage.jsx';
+import Skincare from './components/Skincare.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <ServiceNav />
       <Massage />
+      <Skincare />
       {/* <Footer /> */}
     </div>
   )

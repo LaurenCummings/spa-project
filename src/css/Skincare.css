@@ -1,0 +1,13 @@
+.skincare {
+    text-align: center;
+    color: white;
+    border: white;
+    border-style: solid none;
+    margin: 20px;
+    padding: 20px;
+}
+
+.skincare p {
+    width: 400px;
+    margin: 10px auto;
+}

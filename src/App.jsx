@@ -19,7 +19,7 @@ function App() {
       <Skincare />
       <Nails />
       <BodyTreatments />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

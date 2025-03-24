@@ -1,0 +1,16 @@
+.nails {
+    text-align: center;
+    color: white;
+}
+
+.nail-treatments {
+    display: flex;
+    justify-content: center;
+}
+
+.nail-treatment {
+    border: black solid thin;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+}

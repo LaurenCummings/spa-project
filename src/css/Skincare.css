@@ -5,9 +5,17 @@
     border-style: solid none;
     margin: 20px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skincare p {
     width: 400px;
     margin: 10px auto;
+}
+
+.skincare img {
+    height: 300px;
+    margin-left: 50px;
 }

@@ -1,8 +1,9 @@
 import '../css/Nails.css';
+import { forwardRef } from 'react';
 
-function Nails() {
+const Nails = forwardRef((props, ref) => {
     return (
-        <div className="nails">
+        <div ref={ref} className="nails">
             <h1>Nails</h1>
             <div className="nail-treatments">
                 <div className="nail-treatment">
@@ -23,6 +24,7 @@ function Nails() {
             </div>
         </div>
     )
-}
+});
 
+Nails.displayName = 'Nails';
 export default Nails;

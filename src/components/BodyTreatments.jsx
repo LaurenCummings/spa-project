@@ -1,10 +1,11 @@
 import '../css/BodyTreatments.css';
 import bodyscrub from '../assets/bodyscrub.jpg';
 import seaweedwrap from '../assets/seaweedwrap.jpg';
+import { forwardRef } from 'react';
 
-function BodyTreatments() {
+const BodyTreatments = forwardRef((props, ref) => {
     return (
-        <div className="body-treatments">
+        <div ref={ref} className="body-treatments">
             <h1>Body Treatments</h1>
             <div className="body-treatment-services">
                 <div className="body-treatment-service">
@@ -26,6 +27,7 @@ function BodyTreatments() {
             </div>
         </div>
     )
-}
+});
 
+BodyTreatments.displayName = 'BodyTreatments';
 export default BodyTreatments;

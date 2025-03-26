@@ -2,7 +2,7 @@ import './css/App.css';
 import Topbar from './components/Topbar.jsx';
 import Banner from './components/Banner.jsx';
 import ServiceNav from './components/ServiceNav.jsx';
-import Massage from './components/Massage.jsx';
+// import Massage from './components/Massage.jsx';
 import Skincare from './components/Skincare.jsx';
 import Nails from './components/Nails.jsx';
 import BodyTreatments from './components/BodyTreatments.jsx';
@@ -15,7 +15,7 @@ function App() {
       <Topbar />
       <Banner />
       <ServiceNav />
-      <Massage />
+      {/* <Massage /> */}
       <Skincare />
       <Nails />
       <BodyTreatments />

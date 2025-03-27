@@ -9,6 +9,7 @@ function Footer() {
                 <p>Faketown, FakeState</p>
             </div>
             <p><a target="_blank" href="https://icons8.com/icon/Vhgkr6lfmGL8/water">Water</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p>Service descriptions created with the help of Google AI Overview</p>
         </div>
     )
 }

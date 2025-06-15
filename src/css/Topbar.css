@@ -39,5 +39,6 @@
 }
 
 .topbar button:hover {
-    opacity: 0.6;
+    background-color: white;
+    color: rgb(19, 30, 49);
 }

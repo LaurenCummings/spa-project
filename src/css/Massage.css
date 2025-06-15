@@ -12,7 +12,7 @@
 
 .massage-service {
     border: thin black solid;
-    background-color: rgb(73 102 134);
+    background-color: var(--clr-lt-purple);
     border-radius: 8px;
     color: white;
     margin: 20px;

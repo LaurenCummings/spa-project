@@ -1,7 +1,7 @@
 import '../css/ServiceNav.css';
 import massage from '../assets/massage.jpg';
 import skincare from '../assets/skincare.png';
-import nails from '../assets/nails.png';
+import nails from '../assets/nails2.jpg';
 import stones from '../assets/stones.jpg';
 import { useRef } from 'react';
 import Massage from '../components/Massage';

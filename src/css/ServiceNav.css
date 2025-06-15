@@ -37,7 +37,8 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    height: 50px;
+    padding: 10px;
+    font-size: 20px;
     position: absolute;
     top: 75%;
 }

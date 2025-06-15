@@ -1,3 +1,11 @@
+:root {
+    --clr-cream: #ede9e6;
+    --clr-gray: #c1cfcf;
+    --clr-blue: #aabac7;
+    --clr-lt-purple: #73648A;
+    --clr-dk-purple: #453750;
+}
+
 body {
     background-color: #ede9e6;
     margin: 0px;

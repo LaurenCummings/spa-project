@@ -28,6 +28,9 @@
 
 .service h2 {
     position: absolute;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: var(--clr-cream);
+    font-size: 40px;
 }
 
 .service button {

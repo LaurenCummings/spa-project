@@ -35,8 +35,9 @@
     margin-top: 20px;
     position: absolute;
     right: 40px;
+    transition: all 0.3s linear;
 }
 
 .topbar button:hover {
-    opacity: 0.9;
+    opacity: 0.6;
 }

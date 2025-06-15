@@ -1,5 +1,5 @@
 .service-nav h1 {
-    color: #453750;
+    color: var(--clr-dk-purple);
     text-align: center;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .service {
-    border: thin black solid;
+    border: 2px var(--clr-dk-purple) solid;
     border-radius: 8px;
     height: 300px;
     margin: 10px;

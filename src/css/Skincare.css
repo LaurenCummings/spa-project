@@ -1,6 +1,6 @@
 .skincare {
     text-align: center;
-    color: white;
+    color: var(--clr-dk-purple);
     border: var(--clr-dk-purple);
     border-style: solid none;
     margin: 20px;
@@ -13,6 +13,7 @@
 .skincare p {
     width: 400px;
     margin: 10px auto;
+    font-size: 20px;
 }
 
 .skincare img {

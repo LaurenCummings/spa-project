@@ -17,3 +17,13 @@
     border-radius: 8px;
     margin-right: 40px;
 }
+
+.body-treatment-service h2 {
+    color: var(--clr-dk-purple);
+}
+
+.body-treatment-service p {
+    color: var(--clr-dk-purple);
+    font-size: 20px;
+    max-width: 350px;
+}

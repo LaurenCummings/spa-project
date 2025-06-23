@@ -8,7 +8,8 @@ function Topbar() {
                 <img src={logo} alt="logo" />
                 <h1>The Spa</h1>
             </div>
-            <button>Book an Appointment</button>
+            <button className="book-appt">Book an Appointment</button>
+            <button className="scroll-top">Scroll to Top</button>
         </div>
     )
 }

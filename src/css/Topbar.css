@@ -34,13 +34,24 @@
     font-size: 22px;
     width: 200px;
     padding: 20px;
-    margin-top: 20px;
     position: absolute;
-    right: 40px;
     transition: all 0.3s linear;
 }
 
 .topbar button:hover {
     background-color: white;
     color: rgb(19, 30, 49);
+}
+
+
+.book-appt {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.scroll-top {
+    position: absolute;
+    top: calc(100vh - 100px);
+    right: 40px;
 }

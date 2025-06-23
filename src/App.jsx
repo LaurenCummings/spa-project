@@ -12,6 +12,7 @@ function App() {
       <Banner />
       <ServiceNav />
       <Footer />
+      <button className="scroll-top">Scroll to Top</button>
     </div>
   )
 }

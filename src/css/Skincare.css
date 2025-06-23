@@ -21,3 +21,13 @@
     margin-left: 50px;
     border-radius: 8px;
 }
+
+@media (max-width: 900px) {
+    .skincare {
+        flex-direction: column;
+    }
+
+    .skincare img {
+        margin-left: auto;
+    }
+}

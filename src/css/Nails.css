@@ -25,3 +25,11 @@
     font-size: 20px;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    .nail-treatments {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}

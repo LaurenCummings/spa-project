@@ -6,6 +6,10 @@
     margin: 20px;
 }
 
+.body-treatments h1 {
+    color: var(--clr-dk-purple);
+}
+
 .body-treatment-service {
     display: flex;
     justify-content: center;

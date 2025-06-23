@@ -1,6 +1,6 @@
 .nails {
     text-align: center;
-    color: white;
+    color: var(--clr-dk-purple);
 }
 
 .nail-treatments {
@@ -17,6 +17,11 @@
     background-color: var(--clr-lt-purple);
 }
 
+.nail-treatment h2 {
+    color: white;
+}
+
 .nail-treatment p {
     font-size: 20px;
+    color: white;
 }

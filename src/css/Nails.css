@@ -14,4 +14,9 @@
     margin: 10px 20px;
     width: 300px;
     padding: 10px 20px;
+    background-color: var(--clr-lt-purple);
+}
+
+.nail-treatment p {
+    font-size: 20px;
 }

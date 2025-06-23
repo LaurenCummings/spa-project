@@ -1,3 +1,15 @@
 .footer {
-    height: 50px;
+    height: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.location {
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.extra-info {
+    line-height: 10px;
+    margin-top: 30px;
 }

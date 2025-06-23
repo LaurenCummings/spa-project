@@ -1,7 +1,7 @@
 .skincare {
     text-align: center;
     color: white;
-    border: white;
+    border: var(--clr-dk-purple);
     border-style: solid none;
     margin: 20px;
     padding: 20px;

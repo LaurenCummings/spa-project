@@ -1,0 +1,10 @@
+.book-now {
+    border: var(--clr-dk-purple);
+    border-style: none none solid none;
+}
+
+.calendar {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}

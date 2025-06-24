@@ -3,8 +3,11 @@ import Calendar from 'react-calendar';
 
 function BookNow() {
     return (
-        <div>
-            <Calendar />
+        <div className="book-now">
+            <div className="calendar">
+                <Calendar />    
+            </div>
+            
         </div>
     )
 }

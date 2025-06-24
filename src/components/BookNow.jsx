@@ -8,7 +8,9 @@ function BookNow() {
             <div className="calendar">
                 <Calendar />    
             </div>
-            
+            <div className="appointments">
+                <h3>Available Appointments</h3>
+            </div>
         </div>
     )
 }

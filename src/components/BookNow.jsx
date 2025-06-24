@@ -26,7 +26,7 @@ function BookNow() {
                     <p>3pm</p>
                     <button>Select</button>
                 </div>
-                <button>Book Now</button>
+                <button className="book-now-btn">Book Now</button>
             </div>
         </div>
     )

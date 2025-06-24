@@ -1,13 +1,14 @@
 .book-now {
     border: var(--clr-dk-purple);
     border-style: none none solid none;
+    height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 150px;
 }
 
 .calendar {
     width: 500px;
     text-align: center;
-    padding: 70px 0px;
 }

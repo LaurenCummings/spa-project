@@ -1,9 +1,10 @@
 import '../css/BookNow.css';
+import Calendar from 'react-calendar';
 
 function BookNow() {
     return (
         <div>
-            BookNow
+            <Calendar />
         </div>
     )
 }

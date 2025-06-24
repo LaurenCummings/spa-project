@@ -21,30 +21,21 @@
     position: absolute;
     left: 25%;
     top: 5%;
-    animation: fadeInOut 3s ease-in infinite;
+    animation: fadeInOut 5s ease-in infinite;
 }
 
 .banner .to {
     position: absolute;
     left: 45%;
     top: 25%;
-    animation: fadeInOut 3s ease-in infinite;
+    animation: fadeInOut 5s ease-in infinite;
 }
 
 .banner .relaxation {
     position: absolute;
     left: 48%;
     top: 45%;
-    animation: fadeInOut 3s ease-in infinite;
-}
-
-@keyframes headerFadeIn{
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    animation: fadeInOut 5s ease-in infinite;
 }
 
 @keyframes fadeInOut {

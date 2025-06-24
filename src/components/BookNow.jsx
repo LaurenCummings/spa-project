@@ -28,6 +28,12 @@ function BookNow() {
                 </div>
                 <button className="book-now-btn">Book Now</button>
             </div>
+            <div className="user-info">
+                <form>
+                    <label>Name:</label>
+                    <input></input>
+                </form>
+            </div>
         </div>
     )
 }

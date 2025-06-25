@@ -28,7 +28,7 @@ function BookNow() {
                                     <button 
                                         onClick={()=>handleSelected(index)}
                                         className={selected === index ? "active" : null}>
-                                            Select
+                                            {selected === index? "Selected" : "Select"}
                                     </button>
                                 </div>                                
                             )

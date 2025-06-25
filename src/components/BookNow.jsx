@@ -2,16 +2,21 @@ import '../css/BookNow.css';
 import { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import appointments from '../Data.js';
 
 function BookNow() {
     const [selected, setSelected] = useState(false);
+
+    const toggleSelected = () => {
+        
+    }
 
     return (
         <div className="book-now">
             <div className="calendar">
                 <Calendar />    
             </div>
-            <div className="appointment-info">
+            <div className="appointment-info"> 
                 <h3>Available Appointments</h3>
                 <div className="appointment">
                     <p>10am</p>

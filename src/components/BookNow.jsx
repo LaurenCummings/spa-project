@@ -18,6 +18,13 @@ function BookNow() {
             </div>
             <div className="appointment-info"> 
                 <h3>Available Appointments</h3>
+                    {
+                        appointments.day === "odd" && appointments.map((item, index) => {
+                            <div className="appointment">
+                                <p>{item.time}</p>
+                            </div>
+                        })
+                    }
                 <div className="appointment">
                     <p>10am</p>
                     <button>Select</button>

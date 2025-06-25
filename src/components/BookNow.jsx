@@ -32,6 +32,8 @@ function BookNow() {
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" name="name"></input>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email"></input>
                 </form>
             </div>
         </div>

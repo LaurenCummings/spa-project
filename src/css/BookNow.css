@@ -39,6 +39,12 @@
     color: var(--clr-dk-purple);
 }
 
+.appointment > .active {
+    background-color: white;
+    color: var(--clr-dk-purple);
+    border: solid 2px var(--clr-dk-purple);
+}
+
 .book-now-btn {
     background-color: var(--clr-dk-purple);
     color: white;

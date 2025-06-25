@@ -25,7 +25,11 @@ function BookNow() {
                             return (
                                 <div key={appointment.id} className="appointment">
                                     <p>{appointment.time}</p>
-                                    <button onClick={()=>handleSelected(index)}>Select</button>
+                                    <button 
+                                        onClick={()=>handleSelected(index)}
+                                        className={selected === index ? "active" : null}>
+                                            Select
+                                    </button>
                                 </div>                                
                             )
                         })

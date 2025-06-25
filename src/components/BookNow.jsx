@@ -5,10 +5,11 @@ import 'react-calendar/dist/Calendar.css';
 import { oddAppointments, evenAppointments } from '../Data.js';
 
 function BookNow() {
-    const [selected, setSelected] = useState(false);
+    const [selected, setSelected] = useState(-1);
 
-    const toggleSelected = () => {
-        
+    const handleSelected = (index) => {
+        setSelected(index);
+        console.log(selected);
     }
 
     console.log(oddAppointments);
@@ -20,11 +21,11 @@ function BookNow() {
             <div className="appointment-info"> 
                 <h3>Available Appointments</h3>
                     {
-                        oddAppointments.map((appointment) => {
+                        oddAppointments.map((appointment, index) => {
                             return (
                                 <div key={appointment.id} className="appointment">
                                     <p>{appointment.time}</p>
-                                    <button>Select</button>
+                                    <button onClick={()=>handleSelected(index)}>Select</button>
                                 </div>                                
                             )
                         })

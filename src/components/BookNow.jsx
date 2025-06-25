@@ -2,7 +2,7 @@ import '../css/BookNow.css';
 import { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import appointments from '../Data.js';
+import { oddAppointments, evenAppointments } from '../Data.js';
 
 function BookNow() {
     const [selected, setSelected] = useState(false);

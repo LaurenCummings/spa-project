@@ -1,11 +1,19 @@
 const appointments = [
     {
         day: "odd",
-        times: ["9am", "11am", "1pm", "2pm", "4pm"],
+        appointment: ["9am", "Alice"],
+        appointment: ["11am", "Mark"],
+        appointment: ["1pm", "Juan"],
+        appointment: ["2pm", "Amber"],
+        appointment: ["4pm", "Alan"],
     },
     {
         day: "even",
-        times: ["8am", "10am", "11am", "3pm", "4pm"],
+        appointment: ["8am", "Mark"],
+        appointment: ["10am", "Jim"],
+        appointment: ["11am", "Margaret"],
+        appointment: ["3pm", "Alan"],
+        appointment: ["4pm", "Alice"],
     }
 ]
 

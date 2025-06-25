@@ -19,9 +19,9 @@ function BookNow() {
             <div className="appointment-info"> 
                 <h3>Available Appointments</h3>
                     {
-                        appointments.day == "odd" && appointments.times.map((time, index) => {
-                            <div className="appointment">
-                                <p>{item.time}</p>
+                        oddAppointments.map((appointment) => {
+                            <div key={appointment.id} className="appointment">
+                                <p>{appointment.time}</p>
                                 <button>Select</button>
                             </div>
                         })
@@ -31,12 +31,12 @@ function BookNow() {
             <div className="user-info">
                 <form>
                     <div>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name"></input>
+                        <label>Name:</label>
+                        <input type="text"></input>
                     </div>
                     <div>
-                        <label for="email">Email:</label>
-                        <input type="text" name="email"></input>                       
+                        <label>Email:</label>
+                        <input type="text"></input>                       
                     </div>
                 </form>
             </div>

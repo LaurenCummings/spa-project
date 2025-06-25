@@ -11,6 +11,7 @@ function BookNow() {
         
     }
 
+    console.log(oddAppointments);
     return (
         <div className="book-now">
             <div className="calendar">
@@ -20,10 +21,12 @@ function BookNow() {
                 <h3>Available Appointments</h3>
                     {
                         oddAppointments.map((appointment) => {
-                            <div key={appointment.id} className="appointment">
-                                <p>{appointment.time}</p>
-                                <button>Select</button>
-                            </div>
+                            return (
+                                <div key={appointment.id} className="appointment">
+                                    <p>{appointment.time}</p>
+                                    <button>Select</button>
+                                </div>                                
+                            )
                         })
                     }
                 <button className="book-now-btn">Book Now</button>

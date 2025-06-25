@@ -1,8 +1,11 @@
 import '../css/BookNow.css';
+import { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
 function BookNow() {
+    const [selected, setSelected] = useState(false);
+
     return (
         <div className="book-now">
             <div className="calendar">

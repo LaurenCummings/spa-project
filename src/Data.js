@@ -1,12 +1,55 @@
-const appointments = [
+export const oddAppointments = [
     {
-        day: "odd",
-        times: ["9am", "11am", "1pm", "2pm", "4pm"],
+        id: 1,
+        tech: "Alice",
+        time: "9am",
     },
     {
-        day: "even",
-        times: ["8am", "10am", "11am", "3pm", "4pm"],
+        id: 2,
+        tech: "Mark",
+        time: "11am",
+    },
+    {
+        id: 3,
+        tech: "Alice",
+        time: "1pm",
+    },
+    {
+        id: 4,
+        tech: "Amber",
+        time: "2pm",
+    },
+    {
+        id: 5,
+        tech: "Mark",
+        time: "4pm",
     },
 ]
 
-export default appointments;
+export const evenAppointments = [
+    {
+        id: 6,
+        tech: "Susie",
+        time: "8am",
+    },
+    {
+        id: 7,
+        tech: "Amber",
+        time: "10am",
+    },
+    {
+        id: 8,
+        tech: "Jim",
+        time: "11am",
+    },
+    {
+        id: 9,
+        tech: "Susie",
+        time: "3pm",
+    },
+    {
+        id: 10,
+        tech: "Mark",
+        time: "4pm",
+    },
+]

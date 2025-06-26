@@ -21,7 +21,6 @@ function BookNow() {
         }));
     }, [selectedDate]);
 
-    console.log(formattedDate);
     return (
         <div className="book-now">
             <div className="calendar">
@@ -29,6 +28,7 @@ function BookNow() {
             </div>
             <div className="appointment-info"> 
                 <h3>Available Appointments</h3>
+                <p>{formattedDate}</p>
                     {
                         oddAppointments.map((appointment, index) => {
                             return (

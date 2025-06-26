@@ -27,7 +27,13 @@ function BookNow() {
         }
     }
 
-    console.log(isEven());
+    useEffect(() => {
+        if (isEven(selectedDate)) {
+            setAppointments(evenAppointments);
+        } else {
+            setAppointments(oddAppointments);    
+        }
+    }, [selectedDate]);
 
     useEffect(() => {
         setFormattedDate(selectedDate.toLocaleDateString('en-US', {
@@ -46,7 +52,7 @@ function BookNow() {
                 <h3>Available Appointments</h3>
                 <p>{formattedDate}</p>
                     {
-                        oddAppointments.map((appointment, index) => {
+                        appointments.map((appointment, index) => {
                             return (
                                 <div key={appointment.id} className="appointment">
                                     <p>{appointment.time}</p>

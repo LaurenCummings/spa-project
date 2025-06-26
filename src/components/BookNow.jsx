@@ -6,10 +6,10 @@ import { oddAppointments, evenAppointments } from '../Data.js';
 
 function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
-    const [selected, setSelected] = useState(-1);
+    const [selectedTime, setSelectedTime] = useState(-1);
 
-    const handleSelected = (index) => {
-        setSelected(index);
+    const handleSelectedTime = (index) => {
+        setSelectedTime(index);
     }
 
     console.log(selectedDate);
@@ -26,9 +26,9 @@ function BookNow() {
                                 <div key={appointment.id} className="appointment">
                                     <p>{appointment.time}</p>
                                     <button 
-                                        onClick={()=>handleSelected(index)}
-                                        className={selected === index ? "active" : null}>
-                                            {selected === index? "Selected" : "Select"}
+                                        onClick={()=>handleSelectedTime(index)}
+                                        className={selectedTime === index ? "active" : null}>
+                                            {selectedTime === index? "Selected" : "Select"}
                                     </button>
                                 </div>                                
                             )

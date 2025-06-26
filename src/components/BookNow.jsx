@@ -17,6 +17,17 @@ function BookNow() {
         setSelectedDate(selectedDate);
     }
 
+    const isEven = () => {
+        const dayOfMonth = selectedDate.getDate();
+        if (dayOfMonth % 2 === 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    console.log(isEven());
+
     useEffect(() => {
         setFormattedDate(selectedDate.toLocaleDateString('en-US', {
             year: 'numeric',

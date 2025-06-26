@@ -42,7 +42,7 @@ function BookNow() {
             day: 'numeric'
         }));
     }, [selectedDate]);
-
+console.log(appointments[selectedTime]);
     return (
         <div className="book-now">
             <div className="calendar">
@@ -78,6 +78,13 @@ function BookNow() {
                         <input type="text"></input>                       
                     </div>
                 </form>
+                { 
+                    selectedTime !== -1 && 
+                    <div>
+                        
+                        <p>{appointments[selectedTime].time}</p>
+                    </div>
+                }
             </div>
         </div>
     )

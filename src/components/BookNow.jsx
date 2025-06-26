@@ -13,6 +13,10 @@ function BookNow() {
         setSelectedTime(index);
     }
 
+    const handleSelectedDate = (selectedDate) => {
+        setSelectedDate(selectedDate);
+    }
+
     useEffect(() => {
         setFormattedDate(selectedDate.toLocaleDateString('en-US', {
             year: 'numeric',
@@ -24,7 +28,7 @@ function BookNow() {
     return (
         <div className="book-now">
             <div className="calendar">
-                <Calendar />    
+                <Calendar onChange={handleSelectedDate} value={selectedDate} />    
             </div>
             <div className="appointment-info"> 
                 <h3>Available Appointments</h3>

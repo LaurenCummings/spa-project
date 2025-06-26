@@ -5,14 +5,14 @@ import 'react-calendar/dist/Calendar.css';
 import { oddAppointments, evenAppointments } from '../Data.js';
 
 function BookNow() {
+    const [selectedDate, setSelectedDate] = useState(new Date());
     const [selected, setSelected] = useState(-1);
 
     const handleSelected = (index) => {
         setSelected(index);
-        console.log(selected);
     }
 
-    console.log(oddAppointments);
+    console.log(selectedDate);
     return (
         <div className="book-now">
             <div className="calendar">

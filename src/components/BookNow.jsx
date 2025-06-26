@@ -1,18 +1,27 @@
 import '../css/BookNow.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { oddAppointments, evenAppointments } from '../Data.js';
 
 function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
+    const [formattedDate, setFormattedDate] = useState();
     const [selectedTime, setSelectedTime] = useState(-1);
 
     const handleSelectedTime = (index) => {
         setSelectedTime(index);
     }
 
-    console.log(selectedDate);
+    useEffect(() => {
+        setFormattedDate(selectedDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        }));
+    }, [selectedDate]);
+
+    console.log(formattedDate);
     return (
         <div className="book-now">
             <div className="calendar">

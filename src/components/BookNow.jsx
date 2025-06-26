@@ -8,6 +8,7 @@ function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [formattedDate, setFormattedDate] = useState();
     const [selectedTime, setSelectedTime] = useState(-1);
+    const [appointments, setAppointments] = useState([]);
 
     const handleSelectedTime = (index) => {
         setSelectedTime(index);

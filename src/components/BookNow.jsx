@@ -72,7 +72,7 @@ function BookNow() {
                             )
                         })
                     }
-                <button className="book-now-btn">Book Now</button>
+                
             </div>
             <div className="user-info">
                 <form>
@@ -90,6 +90,7 @@ function BookNow() {
                     <div>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>
+                        <button className="book-now-btn">Book Now</button>
                     </div>
                 }
             </div>

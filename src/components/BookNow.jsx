@@ -8,12 +8,12 @@ function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [formattedDate, setFormattedDate] = useState();
     const [selectedTimeIndex, setSelectedTimeIndex] = useState(-1);
-    const [selectedTime, setSelectedTime] = useState();
+    const [chosenTime, setChosenTime] = useState();
     const [appointments, setAppointments] = useState([]);
 
     const handleSelectedTime = (index) => {
         setSelectedTimeIndex(index);
-        setSelectedTime(appointments[selectedTimeIndex].time);
+        setChosenTime(appointments[selectedTimeIndex].time);
     }
 
     const handleSelectedDate = (selectedDate) => {
@@ -81,10 +81,10 @@ function BookNow() {
                     </div>
                 </form>
                 { 
-                    selectedTime && 
+                    chosenTime && 
                     <div>
                         
-                        <p>{selectedTime}</p>
+                        <p>{chosenTime}</p>
                     </div>
                 }
             </div>

@@ -85,7 +85,7 @@ function BookNow() {
                 { 
                     chosenTime && 
                     <div>
-                        
+                        <p>{chosenDate}</p>
                         <p>{chosenTime}</p>
                     </div>
                 }

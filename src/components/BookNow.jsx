@@ -13,6 +13,7 @@ function BookNow() {
 
     const handleSelectedTime = (index) => {
         setSelectedTimeIndex(index);
+        setSelectedTime(appointments[selectedTimeIndex].time);
     }
 
     const handleSelectedDate = (selectedDate) => {
@@ -43,7 +44,7 @@ function BookNow() {
             day: 'numeric'
         }));
     }, [selectedDate]);
-console.log(appointments[selectedTimeIndex]);
+
     return (
         <div className="book-now">
             <div className="calendar">
@@ -80,10 +81,10 @@ console.log(appointments[selectedTimeIndex]);
                     </div>
                 </form>
                 { 
-                    selectedTimeIndex !== -1 && 
+                    selectedTime && 
                     <div>
                         
-                        <p>{appointments[selectedTimeIndex].time}</p>
+                        <p>{selectedTime}</p>
                     </div>
                 }
             </div>

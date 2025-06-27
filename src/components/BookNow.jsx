@@ -16,8 +16,8 @@ function BookNow() {
     const handleSelectedTime = (index) => {
         setSelectedTimeIndex(index);
         setChosenDate(formattedDate);
-        setChosenTime(appointments[selectedTimeIndex].time);
-        setChosenTech(appointments[selectedTimeIndex].tech);
+        setChosenTime(appointments[index].time);
+        setChosenTech(appointments[index].tech);
     }
 
     const handleSelectedDate = (selectedDate) => {
@@ -89,7 +89,7 @@ function BookNow() {
                     chosenTime && 
                     <div>
                         <p>{chosenDate}</p>
-                        <p>{chosenTime}</p>
+                        <p>{chosenTime} with {chosenTech}</p>
                     </div>
                 }
             </div>

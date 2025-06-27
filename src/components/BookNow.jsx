@@ -10,6 +10,7 @@ function BookNow() {
     const [selectedTimeIndex, setSelectedTimeIndex] = useState(-1);
     const [chosenDate, setChosenDate] = useState();
     const [chosenTime, setChosenTime] = useState();
+    const [chosenTech, setChosenTech] = useState();
     const [appointments, setAppointments] = useState([]);
 
     const handleSelectedTime = (index) => {

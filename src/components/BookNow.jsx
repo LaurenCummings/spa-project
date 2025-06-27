@@ -14,6 +14,7 @@ function BookNow() {
 
     const handleSelectedTime = (index) => {
         setSelectedTimeIndex(index);
+        setChosenDate(formattedDate);
         setChosenTime(appointments[selectedTimeIndex].time);
     }
 

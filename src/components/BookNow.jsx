@@ -12,7 +12,7 @@ function BookNow() {
     const [chosenAppt, setChosenAppt] = useState();
 
     const handleSelectedTime = (index) => {
-        setSelectedTime(index);
+        setSelectedTimeIndex(index);
     }
 
     const handleSelectedDate = (selectedDate) => {

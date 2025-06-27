@@ -17,6 +17,7 @@ function BookNow() {
         setSelectedTimeIndex(index);
         setChosenDate(formattedDate);
         setChosenTime(appointments[selectedTimeIndex].time);
+        setChosenTech(appointments[selectedTimeIndex].tech);
     }
 
     const handleSelectedDate = (selectedDate) => {

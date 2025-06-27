@@ -80,7 +80,7 @@ console.log(appointments[selectedTimeIndex]);
                     </div>
                 </form>
                 { 
-                    selectedTime !== -1 && 
+                    selectedTimeIndex !== -1 && 
                     <div>
                         
                         <p>{appointments[selectedTimeIndex].time}</p>

@@ -88,6 +88,7 @@ function BookNow() {
                 { 
                     chosenTime && 
                     <div>
+                        <h4>Appointment Details</h4>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>
                         <button className="book-now-btn">Book Now</button>

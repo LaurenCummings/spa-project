@@ -96,6 +96,14 @@ function BookNow() {
                             <option>Swedish Massage</option>
                             <option>Deep Tissue Massage</option>
                             <option>Foot Massage</option>
+                            <option>Hot Stone Massage</option>
+                            <option>Back and Shoulder Massage</option>
+                            <option>Skincare Treatment</option>
+                            <option>Manicure</option>
+                            <option>Pedicure</option>
+                            <option>Manicure & Pedicure</option>
+                            <option>Body Scrub</option>
+                            <option>Seaweed Wrap</option>
                         </select>
                         <button className="book-now-btn">Book Now</button>
                     </div>

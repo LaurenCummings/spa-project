@@ -91,7 +91,7 @@ function BookNow() {
                         <h4>Appointment Details</h4>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>
-                        <label for="service-select">Choose a service:</label>
+                        <label htmlFor="service-select">Choose a service:</label>
                         <select id="service-select">
                             <option>Swedish Massage</option>
                             <option>Deep Tissue Massage</option>

@@ -20,6 +20,7 @@ function BookNow() {
 
     const handleSelectedDate = (selectedDate) => {
         setSelectedDate(selectedDate);
+        setSelectedTimeIndex(-1);
     }
 
     const isEven = () => {

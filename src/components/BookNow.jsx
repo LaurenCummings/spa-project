@@ -60,11 +60,11 @@ function BookNow() {
                         appointments.map((appointment, index) => {
                             return (
                                 <div key={appointment.id} className="appointment">
-                                    <p>{appointment.time}</p>
+                                    <p>{appointment.time} with {appointment.tech}</p>
                                     <button 
                                         onClick={()=>handleSelectedTime(index)}
                                         className={selectedTimeIndex === index ? "active" : null}>
-                                            {selectedTimeIndex === index? "Selected" : "Select"}
+                                            {selectedTimeIndex === index ? "Selected" : "Select"}
                                     </button>
                                 </div>                                
                             )

@@ -7,7 +7,7 @@ import { oddAppointments, evenAppointments } from '../Data.js';
 function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [formattedDate, setFormattedDate] = useState();
-    const [selectedTime, setSelectedTime] = useState(-1);
+    const [selectedTimeIndex, setSelectedTimeIndex] = useState(-1);
     const [appointments, setAppointments] = useState([]);
     const [chosenAppt, setChosenAppt] = useState();
 
@@ -43,7 +43,7 @@ function BookNow() {
             day: 'numeric'
         }));
     }, [selectedDate]);
-console.log(appointments[selectedTime]);
+console.log(appointments[selectedTimeIndex]);
     return (
         <div className="book-now">
             <div className="calendar">
@@ -59,8 +59,8 @@ console.log(appointments[selectedTime]);
                                     <p>{appointment.time}</p>
                                     <button 
                                         onClick={()=>handleSelectedTime(index)}
-                                        className={selectedTime === index ? "active" : null}>
-                                            {selectedTime === index? "Selected" : "Select"}
+                                        className={selectedTimeIndex === index ? "active" : null}>
+                                            {selectedTimeIndex === index? "Selected" : "Select"}
                                     </button>
                                 </div>                                
                             )
@@ -83,7 +83,7 @@ console.log(appointments[selectedTime]);
                     selectedTime !== -1 && 
                     <div>
                         
-                        <p>{appointments[selectedTime].time}</p>
+                        <p>{appointments[selectedTimeIndex].time}</p>
                     </div>
                 }
             </div>

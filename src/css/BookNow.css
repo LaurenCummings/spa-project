@@ -74,6 +74,23 @@
     flex-direction: column;
 }
 
+.appt-details h4 {
+    margin-bottom: 3px;
+}
+
+.appt-details p {
+    margin: 3px 0px; 
+}
+
+.appt-details label {
+    margin-top: 10px;
+}
+
+.appt-details select {
+    font-size: 18px;
+    width: 300px;
+}
+
 .book-now-btn {
     background-color: var(--clr-dk-purple);
     color: white;

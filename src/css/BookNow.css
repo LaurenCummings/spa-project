@@ -108,3 +108,7 @@
     background-color: white;
     color: var(--clr-dk-purple);
 }
+
+.submitted {
+    display: none;
+}

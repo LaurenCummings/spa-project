@@ -79,7 +79,7 @@ function BookNow() {
                     }
                 
             </div>
-            <div className="user-info">
+            <div className={formSubmitted ? "user-info submitted" : "user-info"}>
                 <form>
                     <div className="user-entry">
                         <label>Name:</label>

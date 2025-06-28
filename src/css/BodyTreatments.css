@@ -3,7 +3,7 @@
     color: white;
     border: var(--clr-dk-purple);
     border-style: solid none;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .body-treatments h1 {

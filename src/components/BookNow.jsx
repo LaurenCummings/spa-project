@@ -116,14 +116,17 @@ function BookNow() {
                     }
                 </div>
             </div>
-            <div className={formSubmitted ? "submitted-info-active" : "submitted-info"}>
-                <p>You have scheduled an appointment</p>
-                <p>Appointment Info:</p>
-                <p>{chosenDate}</p>
-                <p>{chosenTime} with {chosenTech}</p>
-                <p>Service: {document.getElementById("service-select").value}</p>
-                <p>Thank you for trying out the simulation</p>
-            </div>
+            {
+                formSubmitted && 
+                    <div className="submitted-info">
+                        <p>You have scheduled an appointment</p>
+                        <p>Appointment Info:</p>
+                        <p>{chosenDate}</p>
+                        <p>{chosenTime} with {chosenTech}</p>
+                        <p>Service: {document.getElementById("service-select").value}</p>
+                        <p>Thank you for trying out the simulation</p>
+                    </div>                
+            }
         </div>
     )
 }

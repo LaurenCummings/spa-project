@@ -119,11 +119,7 @@
     display: none;
 }
 
-.submitted-info-active {
+.submitted-info {
     text-align: center;
     font-size: 20px;
-}
-
-.submitted-info {
-    display: none;
 }

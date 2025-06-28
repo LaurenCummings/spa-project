@@ -87,7 +87,7 @@ function BookNow() {
                 </form>
                 { 
                     chosenTime && 
-                    <div>
+                    <div className="appt-details">
                         <h4>Appointment Details</h4>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>

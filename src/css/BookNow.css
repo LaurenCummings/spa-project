@@ -45,6 +45,11 @@
     border: solid 2px var(--clr-dk-purple);
 }
 
+.appt-details {
+    display: flex;
+    flex-direction: column;
+}
+
 .book-now-btn {
     background-color: var(--clr-dk-purple);
     color: white;

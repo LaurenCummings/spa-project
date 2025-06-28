@@ -54,6 +54,15 @@
     padding: 0px 50px;
 }
 
+.user-entry {
+    margin-bottom: 10px;
+}
+
+.user-info form label {
+    display: inline-block;
+    width: 60px;
+}
+
 .user-info input {
     border-radius: 5px;
 }

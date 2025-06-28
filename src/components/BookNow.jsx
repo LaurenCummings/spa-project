@@ -121,7 +121,7 @@ function BookNow() {
                 <p>Appointment Info:</p>
                 <p>{chosenDate}</p>
                 <p>{chosenTime} with {chosenTech}</p>
-                <p>Service: </p>
+                <p>Service: {document.getElementById("service-select").value}</p>
                 <p>Thank you for trying out the simulation</p>
             </div>
         </div>

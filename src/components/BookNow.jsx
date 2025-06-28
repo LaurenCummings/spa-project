@@ -99,17 +99,17 @@ function BookNow() {
                             <p>{chosenTime} with {chosenTech}</p>
                             <label htmlFor="service-select">Choose a service:</label>
                             <select id="service-select">
-                                <option>Swedish Massage</option>
-                                <option>Deep Tissue Massage</option>
-                                <option>Foot Massage</option>
-                                <option>Hot Stone Massage</option>
-                                <option>Back and Shoulder Massage</option>
-                                <option>Skincare Treatment</option>
-                                <option>Manicure</option>
-                                <option>Pedicure</option>
-                                <option>Manicure & Pedicure</option>
-                                <option>Body Scrub</option>
-                                <option>Seaweed Wrap</option>
+                                <option value="swedish-massage">Swedish Massage</option>
+                                <option value="deep-tissue-massage">Deep Tissue Massage</option>
+                                <option value="foot-massage">Foot Massage</option>
+                                <option value="hot-stone-massage">Hot Stone Massage</option>
+                                <option value="back-shoulder-massage">Back and Shoulder Massage</option>
+                                <option value="skincare-treatment">Skincare Treatment</option>
+                                <option value="manicure">Manicure</option>
+                                <option value="pedicure">Pedicure</option>
+                                <option value="mani-pedi">Manicure & Pedicure</option>
+                                <option value="body-scrub">Body Scrub</option>
+                                <option value="seaweed-wrap">Seaweed Wrap</option>
                             </select>
                             <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
                         </div>

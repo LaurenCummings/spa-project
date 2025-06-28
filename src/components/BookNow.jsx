@@ -56,63 +56,70 @@ function BookNow() {
     }, [selectedDate]);
 
     return (
-        <div className={formSubmitted ? "book-now submitted" : "book-now"}>
-            <div className="calendar">
-                <Calendar onChange={handleSelectedDate} value={selectedDate} />    
-            </div>
-            <div className="appointment-info"> 
-                <h3>Available Appointments</h3>
-                <p>{formattedDate}</p>
-                    {
-                        appointments.map((appointment, index) => {
-                            return (
-                                <div key={appointment.id} className="appointment">
-                                    <p>{appointment.time} with {appointment.tech}</p>
-                                    <button 
-                                        onClick={()=>handleSelectedTime(index)}
-                                        className={selectedTimeIndex === index ? "active" : null}>
-                                            {selectedTimeIndex === index ? "Selected" : "Select"}
-                                    </button>
-                                </div>                                
-                            )
-                        })
+        <div>
+            <div className={formSubmitted ? "book-now submitted" : "book-now"}>
+                <div className="calendar">
+                    <Calendar onChange={handleSelectedDate} value={selectedDate} />    
+                </div>
+                <div className="appointment-info"> 
+                    <h3>Available Appointments</h3>
+                    <p>{formattedDate}</p>
+                        {
+                            appointments.map((appointment, index) => {
+                                return (
+                                    <div key={appointment.id} className="appointment">
+                                        <p>{appointment.time} with {appointment.tech}</p>
+                                        <button 
+                                            onClick={()=>handleSelectedTime(index)}
+                                            className={selectedTimeIndex === index ? "active" : null}>
+                                                {selectedTimeIndex === index ? "Selected" : "Select"}
+                                        </button>
+                                    </div>                                
+                                )
+                            })
+                        }
+                    
+                </div>
+                <div className="user-info">
+                    <form>
+                        <div className="user-entry">
+                            <label>Name:</label>
+                            <input type="text"></input>
+                        </div>
+                        <div className="user-entry">
+                            <label>Email:</label>
+                            <input type="text"></input>                       
+                        </div>
+                    </form>
+                    { 
+                        chosenTime && 
+                        <div className="appt-details">
+                            <h4>Appointment Details</h4>
+                            <p>{chosenDate}</p>
+                            <p>{chosenTime} with {chosenTech}</p>
+                            <label htmlFor="service-select">Choose a service:</label>
+                            <select id="service-select">
+                                <option>Swedish Massage</option>
+                                <option>Deep Tissue Massage</option>
+                                <option>Foot Massage</option>
+                                <option>Hot Stone Massage</option>
+                                <option>Back and Shoulder Massage</option>
+                                <option>Skincare Treatment</option>
+                                <option>Manicure</option>
+                                <option>Pedicure</option>
+                                <option>Manicure & Pedicure</option>
+                                <option>Body Scrub</option>
+                                <option>Seaweed Wrap</option>
+                            </select>
+                            <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
+                        </div>
                     }
-                
+                </div>
             </div>
-            <div className="user-info">
-                <form>
-                    <div className="user-entry">
-                        <label>Name:</label>
-                        <input type="text"></input>
-                    </div>
-                    <div className="user-entry">
-                        <label>Email:</label>
-                        <input type="text"></input>                       
-                    </div>
-                </form>
-                { 
-                    chosenTime && 
-                    <div className="appt-details">
-                        <h4>Appointment Details</h4>
-                        <p>{chosenDate}</p>
-                        <p>{chosenTime} with {chosenTech}</p>
-                        <label htmlFor="service-select">Choose a service:</label>
-                        <select id="service-select">
-                            <option>Swedish Massage</option>
-                            <option>Deep Tissue Massage</option>
-                            <option>Foot Massage</option>
-                            <option>Hot Stone Massage</option>
-                            <option>Back and Shoulder Massage</option>
-                            <option>Skincare Treatment</option>
-                            <option>Manicure</option>
-                            <option>Pedicure</option>
-                            <option>Manicure & Pedicure</option>
-                            <option>Body Scrub</option>
-                            <option>Seaweed Wrap</option>
-                        </select>
-                        <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
-                    </div>
-                }
+            <div className="submitted-info">
+                <p>You have scheduled an appointment for XXX</p>
+                <p>Appointment Info:</p>
+                <p>Thank you for trying out the simulation</p>
             </div>
         </div>
     )

@@ -54,6 +54,10 @@
     padding: 0px 50px;
 }
 
+.user-info input {
+    border-radius: 5px;
+}
+
 .appt-details {
     display: flex;
     flex-direction: column;

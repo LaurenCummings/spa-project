@@ -26,6 +26,10 @@ function BookNow() {
         setSelectedTimeIndex(-1);
     }
 
+    const handleFormSubmit = () => {
+        setFormSubmitted(true);
+    }
+
     const isEven = () => {
         const dayOfMonth = selectedDate.getDate();
         if (dayOfMonth % 2 === 0) {
@@ -106,7 +110,7 @@ function BookNow() {
                             <option>Body Scrub</option>
                             <option>Seaweed Wrap</option>
                         </select>
-                        <button className="book-now-btn">Book Now</button>
+                        <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
                     </div>
                 }
             </div>

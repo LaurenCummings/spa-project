@@ -56,7 +56,7 @@ function BookNow() {
     }, [selectedDate]);
 
     return (
-        <div>
+        <div className="appointment-section">
             <div className={formSubmitted ? "book-now submitted" : "book-now"}>
                 <div className="calendar">
                     <Calendar onChange={handleSelectedDate} value={selectedDate} />    

@@ -1,7 +1,13 @@
-.book-now {
+.appointment-section {
     border: var(--clr-dk-purple);
     border-style: none none solid none;
-    height: 500px;
+    height: 500px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-now {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +121,7 @@
 
 .submitted-info-active {
     text-align: center;
-    height: 500px;
-    border: var(--clr-dk-purple);
-    border-style: none none solid none;
     font-size: 20px;
-    padding-top: 40px;
 }
 
 .submitted-info {

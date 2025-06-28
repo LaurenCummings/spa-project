@@ -116,7 +116,7 @@ function BookNow() {
                     }
                 </div>
             </div>
-            <div className={formSubmitted ? "submitted-info submitted-info-active" : "submitted-info"}>
+            <div className={formSubmitted ? "submitted-info-active" : "submitted-info"}>
                 <p>You have scheduled an appointment for XXX</p>
                 <p>Appointment Info:</p>
                 <p>Thank you for trying out the simulation</p>

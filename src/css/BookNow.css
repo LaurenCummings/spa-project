@@ -72,6 +72,7 @@
 .appt-details {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .appt-details h4 {
@@ -84,6 +85,7 @@
 
 .appt-details label {
     margin-top: 10px;
+    text-align: left;
 }
 
 .appt-details select {
@@ -99,7 +101,7 @@
     cursor: pointer;
     font-size: 18px;
     padding: 7px 9px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .book-now-btn:hover {

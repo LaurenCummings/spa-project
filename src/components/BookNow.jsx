@@ -99,17 +99,17 @@ function BookNow() {
                             <p>{chosenTime} with {chosenTech}</p>
                             <label htmlFor="service-select">Choose a service:</label>
                             <select id="service-select">
-                                <option value="swedish-massage">Swedish Massage</option>
-                                <option value="deep-tissue-massage">Deep Tissue Massage</option>
-                                <option value="foot-massage">Foot Massage</option>
-                                <option value="hot-stone-massage">Hot Stone Massage</option>
-                                <option value="back-shoulder-massage">Back and Shoulder Massage</option>
-                                <option value="skincare-treatment">Skincare Treatment</option>
-                                <option value="manicure">Manicure</option>
-                                <option value="pedicure">Pedicure</option>
-                                <option value="mani-pedi">Manicure & Pedicure</option>
-                                <option value="body-scrub">Body Scrub</option>
-                                <option value="seaweed-wrap">Seaweed Wrap</option>
+                                <option value="Swedish Massage">Swedish Massage</option>
+                                <option value="Deep Tissue Massage">Deep Tissue Massage</option>
+                                <option value="Foot Massage">Foot Massage</option>
+                                <option value="Hot Stone Massage">Hot Stone Massage</option>
+                                <option value="Back and Shoulder Massage">Back and Shoulder Massage</option>
+                                <option value="Skincare Treatment">Skincare Treatment</option>
+                                <option value="Manicure">Manicure</option>
+                                <option value="Pedicure">Pedicure</option>
+                                <option value="Manicure & Pedicure">Manicure & Pedicure</option>
+                                <option value="Body Scrub">Body Scrub</option>
+                                <option value="Seaweed Wrap">Seaweed Wrap</option>
                             </select>
                             <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
                         </div>

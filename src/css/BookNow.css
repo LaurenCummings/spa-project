@@ -19,6 +19,7 @@
 
 .appointment-info {
     text-align: center;
+    padding: 0px 50px;
 }
 
 .appointment {
@@ -47,6 +48,10 @@
     background-color: white;
     color: var(--clr-dk-purple);
     border: solid 2px var(--clr-dk-purple);
+}
+
+.user-info {
+    padding: 0px 50px;
 }
 
 .appt-details {

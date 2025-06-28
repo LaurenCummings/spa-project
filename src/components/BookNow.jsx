@@ -56,7 +56,7 @@ function BookNow() {
     }, [selectedDate]);
 
     return (
-        <div className="book-now">
+        <div className={formSubmitted ? "book-now submitted" : "book-now"}>
             <div className="calendar">
                 <Calendar onChange={handleSelectedDate} value={selectedDate} />    
             </div>
@@ -79,7 +79,7 @@ function BookNow() {
                     }
                 
             </div>
-            <div className={formSubmitted ? "user-info submitted" : "user-info"}>
+            <div className="user-info">
                 <form>
                     <div className="user-entry">
                         <label>Name:</label>

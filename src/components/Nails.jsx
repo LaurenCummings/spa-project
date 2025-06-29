@@ -1,5 +1,6 @@
 import '../css/Nails.css';
 import { forwardRef } from 'react';
+import { nailsServices } from '../Services.js';
 
 const Nails = forwardRef((props, ref) => {
     return (

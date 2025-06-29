@@ -9,7 +9,7 @@ const Skincare = forwardRef((props, ref) => {
             {
                 skincareServices.map((service) => {
                     return (
-                        <div className="skincare-service">
+                        <div key={service.id} className="skincare-service">
                             <h1>{service.name}</h1>
                             <p>{service.description}</p>
                             <p>{service.duration} {service.price}</p>

@@ -1,6 +1,7 @@
 import '../css/Skincare.css';
 import faceMask from '../assets/facemask.jpg';
 import { forwardRef } from 'react';
+import { skincareServices } from '../Services.js';
 
 const Skincare = forwardRef((props, ref) => {
     return (

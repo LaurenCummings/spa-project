@@ -77,7 +77,7 @@ export const bodyServices = [
         description: "A soothing sugar scrub massage for soft skin",
         duration: "60 minutes",
         price: "$150",
-        image: "./images/bodyscrub.jpg",
+        image: "./images/bodyscrub.jpg"
     },
     {
         id: 2,
@@ -85,6 +85,6 @@ export const bodyServices = [
         description: "A seaweed paste is applied to the body followed by being wrapped up in a soft blanket.",
         duration: "60 minutes",
         price: "$150",
-        image: "./images/seaweedwrap.jpg",
+        image: "./images/seaweedwrap.jpg"
     },
 ]

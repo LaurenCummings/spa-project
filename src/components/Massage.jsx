@@ -7,6 +7,17 @@ const Massage = forwardRef((props, ref) => {
         <div ref={ref} className="massage">
             <h1>Massage Services</h1>
             <div className="massage-services">
+                {
+                    massageServices.map((service) => {
+                        return (
+                            <div key={service.id} className="massage-service">
+                                <h2>{service.name}</h2>
+                                <p>{service.description}</p>
+                                <p>{service.duration} {service.price}</p>
+                            </div>
+                        )
+                    })
+                }
                 <div className="massage-service">
                     <h2>Swedish Massage</h2>
                     <p>This massage uses a variety of strokes and techniques to promote relaxation, improve circulation, and relieve muscle tension</p>

@@ -1,4 +1,6 @@
 import '../css/BodyTreatments.css';
+import bodyscrub from '../assets/bodyscrub.jpg';
+import seaweedwrap from '../assets/seaweedwrap.jpg';
 import { forwardRef } from 'react';
 import { bodyServices } from '../Services.js';
 
@@ -11,7 +13,7 @@ const BodyTreatments = forwardRef((props, ref) => {
                     bodyServices.map((service) => {
                         return (
                             <div key={service.id} className="body-treatment-service">
-                                <img src={service.image} alt={service.name} />
+                                <img src={service.id == 1 ? bodyscrub : seaweedwrap} alt={service.name} />
                                 <div>
                                     <h2>{service.name}</h2>
                                     <p>{service.description}</p>

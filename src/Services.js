@@ -45,3 +45,27 @@ export const skincareServices = [
         price: "$120",
     }
 ]
+
+export const nailsServices = [
+    {
+        id: 1,
+        name: "Manicure",
+        description: "This treatment involves shaping and filing the nails and caring for the cuticles. Afterwards, the nails are buffed and your choice of polish and patterns will be applied.",
+        duration: "60 minutes",
+        price: "$60",
+    },
+    {
+        id: 2,
+        name: "Pedicure",
+        description: "We will remove old polish and soak your feet in warm water before applying new polish. Afterwards, your feet will be moisturized and the procedure will finish with a foot massage.",
+        duration: "60 minutes",
+        price: "$70",
+    },
+    {
+        id: 3,
+        name: "Package Deal",
+        description: "Relax while you are pampered with both a manicure and pedicure",
+        duration: "60 minutes",
+        price: "$100",
+    },
+]

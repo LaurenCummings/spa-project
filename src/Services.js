@@ -40,7 +40,7 @@ export const skincareServices = [
     {
         id: 1,
         name: "Skincare",
-        description: "Our 1 hour facial treatment starts off with a facial cleansing mask and steam treatment, followed by dermaplaning and a jelly mask. We end the treatment with a face and neck massage."
+        description: "Our 1 hour facial treatment starts off with a facial cleansing mask and steam treatment, followed by dermaplaning and a jelly mask. We end the treatment with a face and neck massage.",
         duration: "60 minutes",
         price: "$120",
     }

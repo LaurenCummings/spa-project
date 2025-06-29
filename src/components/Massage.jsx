@@ -1,5 +1,6 @@
 import '../css/Massage.css';
 import { forwardRef } from 'react';
+import { massageServices } from '../Services.js';
 
 const Massage = forwardRef((props, ref) => {
     return (

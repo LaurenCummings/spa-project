@@ -69,3 +69,20 @@ export const nailsServices = [
         price: "$100",
     },
 ]
+
+export const bodyServices = [
+    {
+        id: 1,
+        name: "Body Scrub",
+        description: "A soothing sugar scrub massage for soft skin",
+        duration: "60 minutes",
+        price: "$150",
+    },
+    {
+        id: 2,
+        name: "Seaweed Wrap",
+        description: "A seaweed paste is applied to the body followed by being wrapped up in a soft blanket.",
+        duration: "60 minutes",
+        price: "$150",
+    },
+]

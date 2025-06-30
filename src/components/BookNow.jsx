@@ -99,30 +99,30 @@ function BookNow() {
                             <label>Email:</label>
                             <input type="text" required></input>                       
                         </div>
+                        { 
+                            chosenTime && 
+                            <div className="appt-details">
+                                <h4>Appointment Details</h4>
+                                <p>{chosenDate}</p>
+                                <p>{chosenTime} with {chosenTech}</p>
+                                <label htmlFor="service-select">Choose a service:</label>
+                                <select id="service-select">
+                                    <option value="Swedish Massage">Swedish Massage</option>
+                                    <option value="Deep Tissue Massage">Deep Tissue Massage</option>
+                                    <option value="Foot Massage">Foot Massage</option>
+                                    <option value="Hot Stone Massage">Hot Stone Massage</option>
+                                    <option value="Back and Shoulder Massage">Back and Shoulder Massage</option>
+                                    <option value="Skincare Treatment">Skincare Treatment</option>
+                                    <option value="Manicure">Manicure</option>
+                                    <option value="Pedicure">Pedicure</option>
+                                    <option value="Manicure & Pedicure">Manicure & Pedicure</option>
+                                    <option value="Body Scrub">Body Scrub</option>
+                                    <option value="Seaweed Wrap">Seaweed Wrap</option>
+                                </select>
+                                <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
+                            </div>
+                        }
                     </form>
-                    { 
-                        chosenTime && 
-                        <div className="appt-details">
-                            <h4>Appointment Details</h4>
-                            <p>{chosenDate}</p>
-                            <p>{chosenTime} with {chosenTech}</p>
-                            <label htmlFor="service-select">Choose a service:</label>
-                            <select id="service-select">
-                                <option value="Swedish Massage">Swedish Massage</option>
-                                <option value="Deep Tissue Massage">Deep Tissue Massage</option>
-                                <option value="Foot Massage">Foot Massage</option>
-                                <option value="Hot Stone Massage">Hot Stone Massage</option>
-                                <option value="Back and Shoulder Massage">Back and Shoulder Massage</option>
-                                <option value="Skincare Treatment">Skincare Treatment</option>
-                                <option value="Manicure">Manicure</option>
-                                <option value="Pedicure">Pedicure</option>
-                                <option value="Manicure & Pedicure">Manicure & Pedicure</option>
-                                <option value="Body Scrub">Body Scrub</option>
-                                <option value="Seaweed Wrap">Seaweed Wrap</option>
-                            </select>
-                            <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
-                        </div>
-                    }
                 </div>
             </div>
             {

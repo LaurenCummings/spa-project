@@ -70,7 +70,7 @@ function BookNow() {
                     <h3>Available Appointments</h3>
                     <p>{formattedDate}</p>
                         {
-                            appointments && appointments.map((appointment, index) => {
+                            appointments ? (appointments.map((appointment, index) => {
                                 return (
                                     <div key={appointment.id} className="appointment">
                                         <p>{appointment.time} with {appointment.tech}</p>
@@ -82,8 +82,10 @@ function BookNow() {
                                     </div>                                
                                 )
                             })
-                        }
-                    
+                            ) : (
+                            <div>No Appointments Available</div>
+                            )
+                        } 
                 </div>
                 <div className="user-info">
                     <form>

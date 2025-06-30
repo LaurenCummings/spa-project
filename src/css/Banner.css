@@ -40,6 +40,20 @@
     animation-delay: 4s;
 }
 
+@media (max-width: 900px) {
+    .banner .welcome {
+        left: 10%;
+    }
+
+    .banner .to {
+        left: 30%;
+    }
+
+    .banner .relaxation {
+        left: 30%;
+    }
+}
+
 @keyframes fadeInOut {
     0% {
         opacity: 0;

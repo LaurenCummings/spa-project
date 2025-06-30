@@ -37,18 +37,18 @@ function BookNow() {
     }
 
     useEffect(() => {
-        if (getWeekday === 1) {
+        if (getWeekday(selectedDate) === 1) {
             setAppointments(monAppts);
-        } else if (getWeekday === 2) {
+        } else if (getWeekday(selectedDate) === 2) {
             setAppointments(tueAppts);    
-        } else if (getWeekday === 3) {
+        } else if (getWeekday(selectedDate) === 3) {
             setAppointments(wedAppts);
-        } else if (getWeekday === 4) {
+        } else if (getWeekday(selectedDate) === 4) {
             setAppointments(thuAppts);
-        } else if (getWeekday === 5) {
+        } else if (getWeekday(selectedDate) === 5) {
             setAppointments(friAppts);
         } else {
-            setAppointments(null);
+            setAppointments(friAppts);
         }
     }, [selectedDate]);
 

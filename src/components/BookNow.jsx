@@ -31,17 +31,6 @@ function BookNow() {
         setFormSubmitted(true);
     }
 
-    const isEven = () => {
-        const dayOfMonth = selectedDate.getDate();
-        const dayOfWeek = selectedDate.getDay();
-        console.log(dayOfWeek);
-        if (dayOfMonth % 2 === 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
     const getWeekday = () => {
         const dayOfWeek = selectedDate.getDay();
         return dayOfWeek;

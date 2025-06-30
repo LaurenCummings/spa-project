@@ -27,7 +27,15 @@ function BookNow() {
     }
 
     const handleFormSubmit = () => {
-        setFormSubmitted(true);
+        const form = document.getElementById('apptForm');
+        const requiredFields = form.querySelectorAll('[required]');
+        requiredFields.forEach(field => {
+            if (field.value.trim() === '') {
+                //something here
+            } else {
+                setFormSubmitted(true);   
+            }
+        });
     }
 
     const getWeekday = () => {

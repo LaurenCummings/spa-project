@@ -29,13 +29,15 @@ function BookNow() {
     const handleFormSubmit = () => {
         const form = document.getElementById('apptForm');
         const requiredFields = form.querySelectorAll('[required]');
+        let allFieldsFilled = true;
         requiredFields.forEach(field => {
             if (field.value.trim() === '') {
-                //something here
-            } else {
-                setFormSubmitted(true);   
-            }
+                allFieldsFilled = false;
+            }             
         });
+        if (allFieldsFilled) {
+            setFormSubmitted(true);
+        }
     }
 
     const getWeekday = () => {

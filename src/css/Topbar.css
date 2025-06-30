@@ -55,3 +55,10 @@
     top: calc(100vh - 100px);
     right: 40px;
 }
+
+@media (max-width: 900px) {
+    .topbar button {
+        font-size: 16px;
+        width: 125px;
+    }
+}

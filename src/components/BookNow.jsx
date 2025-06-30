@@ -93,11 +93,11 @@ function BookNow() {
                     <form>
                         <div className="user-entry">
                             <label>Name:</label>
-                            <input type="text"></input>
+                            <input type="text" required></input>
                         </div>
                         <div className="user-entry">
                             <label>Email:</label>
-                            <input type="text"></input>                       
+                            <input type="text" required></input>                       
                         </div>
                     </form>
                     { 

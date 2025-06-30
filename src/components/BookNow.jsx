@@ -90,7 +90,7 @@ function BookNow() {
                         } 
                 </div>
                 <div className="user-info">
-                    <form>
+                    <form id="apptForm">
                         <div className="user-entry">
                             <label>Name:</label>
                             <input type="text" required></input>
@@ -120,7 +120,7 @@ function BookNow() {
                                 <option value="Body Scrub">Body Scrub</option>
                                 <option value="Seaweed Wrap">Seaweed Wrap</option>
                             </select>
-                            <button className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
+                            <button type="submit" form="apptForm" className="book-now-btn" onClick={handleFormSubmit}>Book Now</button>
                         </div>
                     }
                 </div>

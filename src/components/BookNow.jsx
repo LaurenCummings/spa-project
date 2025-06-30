@@ -106,11 +106,11 @@ function BookNow() {
                     <form id="apptForm">
                         <div className="user-entry">
                             <label>Name:</label>
-                            <input type="text" required></input>
+                            <input id="name" type="text" required></input>
                         </div>
                         <div className="user-entry">
                             <label>Email:</label>
-                            <input type="text" required></input>                       
+                            <input id="email" type="text" required></input>                       
                         </div>
                     </form>
                     { 
@@ -143,6 +143,7 @@ function BookNow() {
                     <div className="submitted-info">
                         <p>You have scheduled an appointment</p>
                         <p>Appointment Info:</p>
+                        <p>{document.getElementById("name").value}</p>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>
                         <p>Service: {document.getElementById("service-select").value}</p>

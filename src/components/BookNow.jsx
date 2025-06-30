@@ -70,7 +70,7 @@ function BookNow() {
                     <h3>Available Appointments</h3>
                     <p>{formattedDate}</p>
                         {
-                            appointments.map((appointment, index) => {
+                            appointments && appointments.map((appointment, index) => {
                                 return (
                                     <div key={appointment.id} className="appointment">
                                         <p>{appointment.time} with {appointment.tech}</p>

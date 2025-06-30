@@ -36,7 +36,10 @@ function BookNow() {
     }
 
     useEffect(() => {
-        if (getWeekday(selectedDate) === 1) {
+        const today = new Date();
+        if (selectedDate < today) {
+            setAppointments(null);
+        } else if (getWeekday(selectedDate) === 1) {
             setAppointments(monAppts);
         } else if (getWeekday(selectedDate) === 2) {
             setAppointments(tueAppts);    

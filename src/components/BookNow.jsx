@@ -48,10 +48,18 @@ function BookNow() {
     }
 
     useEffect(() => {
-        if (isEven(selectedDate)) {
-            setAppointments(evenAppointments);
+        if (getWeekday === 1) {
+            setAppointments(monAppts);
+        } else if (getWeekday === 2) {
+            setAppointments(tueAppts);    
+        } else if (getWeekday === 3) {
+            setAppointments(wedAppts);
+        } else if (getWeekday === 4) {
+            setAppointments(thuAppts);
+        } else if (getWeekday === 5) {
+            setAppointments(friAppts);
         } else {
-            setAppointments(oddAppointments);    
+            setAppointments(null);
         }
     }, [selectedDate]);
 

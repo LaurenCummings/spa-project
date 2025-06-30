@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { oddAppointments, evenAppointments } from '../Appointments.js';
+import { monAppts, tueAppts, wedAppts, thuAppts, friAppts } from '../Appointments.js';
 
 function BookNow() {
     const [selectedDate, setSelectedDate] = useState(new Date());
@@ -39,6 +40,11 @@ function BookNow() {
         } else {
             return false;
         }
+    }
+
+    const getWeekday = () => {
+        const dayOfWeek = selectedDate.getDay();
+        return dayOfWeek;
     }
 
     useEffect(() => {

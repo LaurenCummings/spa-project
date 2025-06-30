@@ -38,6 +38,9 @@ function BookNow() {
         if (allFieldsFilled) {
             setFormSubmitted(true);
         }
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+        })
     }
 
     const getWeekday = () => {

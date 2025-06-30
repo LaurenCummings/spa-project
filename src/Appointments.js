@@ -90,21 +90,11 @@ export const tueAppts = [
     },
     {
         id: 7,
-        tech: "Amber",
-        time: "10am",
-    },
-    {
-        id: 8,
-        tech: "Jim",
-        time: "11am",
-    },
-    {
-        id: 9,
         tech: "Susie",
         time: "3pm",
     },
     {
-        id: 10,
+        id: 8,
         tech: "Mark",
         time: "4pm",
     },
@@ -112,27 +102,22 @@ export const tueAppts = [
 
 export const wedAppts = [
     {
-        id: 6,
+        id: 9,
         tech: "Susie",
         time: "8am",
     },
     {
-        id: 7,
+        id: 10,
         tech: "Amber",
         time: "10am",
     },
     {
-        id: 8,
-        tech: "Jim",
-        time: "11am",
-    },
-    {
-        id: 9,
+        id: 11,
         tech: "Susie",
         time: "3pm",
     },
     {
-        id: 10,
+        id: 12,
         tech: "Mark",
         time: "4pm",
     },
@@ -140,27 +125,27 @@ export const wedAppts = [
 
 export const thuAppts = [
     {
-        id: 6,
+        id: 13,
         tech: "Susie",
         time: "8am",
     },
     {
-        id: 7,
+        id: 14,
         tech: "Amber",
         time: "10am",
     },
     {
-        id: 8,
+        id: 15,
         tech: "Jim",
         time: "11am",
     },
     {
-        id: 9,
+        id: 16,
         tech: "Susie",
         time: "3pm",
     },
     {
-        id: 10,
+        id: 17,
         tech: "Mark",
         time: "4pm",
     },
@@ -168,28 +153,23 @@ export const thuAppts = [
 
 export const friAppts = [
     {
-        id: 6,
+        id: 18,
         tech: "Susie",
         time: "8am",
     },
     {
-        id: 7,
+        id: 19,
         tech: "Amber",
         time: "10am",
     },
     {
-        id: 8,
+        id: 20,
         tech: "Jim",
         time: "11am",
     },
     {
-        id: 9,
+        id: 21,
         tech: "Susie",
         time: "3pm",
-    },
-    {
-        id: 10,
-        tech: "Mark",
-        time: "4pm",
     },
 ]

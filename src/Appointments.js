@@ -104,7 +104,7 @@ export const wedAppts = [
     {
         id: 9,
         tech: "Susie",
-        time: "8am",
+        time: "9am",
     },
     {
         id: 10,
@@ -114,25 +114,25 @@ export const wedAppts = [
     {
         id: 11,
         tech: "Susie",
-        time: "3pm",
+        time: "2pm",
     },
     {
         id: 12,
         tech: "Mark",
-        time: "4pm",
+        time: "3pm",
     },
 ]
 
 export const thuAppts = [
     {
         id: 13,
-        tech: "Susie",
+        tech: "Mark",
         time: "8am",
     },
     {
         id: 14,
         tech: "Amber",
-        time: "10am",
+        time: "9am",
     },
     {
         id: 15,
@@ -141,8 +141,8 @@ export const thuAppts = [
     },
     {
         id: 16,
-        tech: "Susie",
-        time: "3pm",
+        tech: "Alice",
+        time: "1pm",
     },
     {
         id: 17,
@@ -154,8 +154,8 @@ export const thuAppts = [
 export const friAppts = [
     {
         id: 18,
-        tech: "Susie",
-        time: "8am",
+        tech: "Jim",
+        time: "10am",
     },
     {
         id: 19,
@@ -169,7 +169,7 @@ export const friAppts = [
     },
     {
         id: 21,
-        tech: "Susie",
+        tech: "Alice",
         time: "3pm",
     },
 ]

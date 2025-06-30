@@ -32,6 +32,8 @@ function BookNow() {
 
     const isEven = () => {
         const dayOfMonth = selectedDate.getDate();
+        const dayOfWeek = selectedDate.getDay();
+        console.log(dayOfWeek);
         if (dayOfMonth % 2 === 0) {
             return true;
         } else {

@@ -142,8 +142,9 @@ function BookNow() {
                 formSubmitted && 
                     <div className="submitted-info">
                         <p>You have scheduled an appointment</p>
-                        <p>Appointment Info:</p>
                         <p>Name: {document.getElementById("name").value}</p>
+                        <p>Email: {document.getElementById("email").value}</p>
+                        <p>Appointment Info:</p>
                         <p>{chosenDate}</p>
                         <p>{chosenTime} with {chosenTech}</p>
                         <p>Service: {document.getElementById("service-select").value}</p>

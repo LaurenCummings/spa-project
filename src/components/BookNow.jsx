@@ -48,7 +48,7 @@ function BookNow() {
         } else if (getWeekday(selectedDate) === 5) {
             setAppointments(friAppts);
         } else {
-            setAppointments(friAppts);
+            setAppointments(null);
         }
     }, [selectedDate]);
 

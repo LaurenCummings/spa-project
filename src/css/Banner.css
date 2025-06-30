@@ -54,6 +54,27 @@
     }
 }
 
+@media (max-width: 560px) {
+    .banner h1 {
+        font-size: 80px;
+    }
+
+    .banner .welcome {
+        top: 20%;
+        left: 5%;
+    }
+
+    .banner .to {
+        top: 40%;
+        left: 20%;
+    }
+
+    .banner .relaxation {
+        top: 60%;
+        left: 25%;
+    }
+}
+
 @keyframes fadeInOut {
     0% {
         opacity: 0;

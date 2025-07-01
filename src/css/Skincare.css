@@ -31,3 +31,13 @@
         margin: 20px auto;
     }
 }
+
+@media (max-width: 500px) {
+    .skincare p {
+        width: 300px;
+    }
+
+    .skincare img {
+        height: 225px;
+    }
+}

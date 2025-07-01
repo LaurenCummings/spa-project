@@ -161,3 +161,13 @@
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 730px) {
+    .appointment-section {
+        height: 1200px;
+    }
+
+    .book-now {
+        flex-direction: column;
+    }
+}

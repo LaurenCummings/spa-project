@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 120px;
 }
 
 .calendar {
@@ -26,6 +26,14 @@
 .appointment-info {
     text-align: center;
     padding: 0px 50px;
+}
+
+.appointment-info h3 {
+    font-size: 22px;
+}
+
+.appointment-info p {
+    font-size: 20px;
 }
 
 .appointment {

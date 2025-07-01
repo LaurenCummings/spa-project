@@ -6,6 +6,10 @@
     --clr-dk-purple: #453750;
 }
 
+* {
+    overflow-x: clip;
+}
+
 body {
     background-color: var(--clr-cream);
     margin: 0px;

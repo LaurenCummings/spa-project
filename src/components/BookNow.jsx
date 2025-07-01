@@ -98,7 +98,7 @@ function BookNow() {
                                 )
                             })
                             ) : (
-                            <div>No Appointments Available</div>
+                            <div><p>No Appointments Available</p></div>
                             )
                         } 
                 </div>

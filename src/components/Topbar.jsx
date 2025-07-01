@@ -17,7 +17,7 @@ function Topbar() {
         })
     }
 
-    return(
+    return (
         <div className="topbar">
             <div className="logo">
                 <img src={logo} alt="logo" />

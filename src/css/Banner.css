@@ -55,6 +55,10 @@
 }
 
 @media (max-width: 560px) {
+    * {
+        overflow-x: clip;
+    }
+
     .banner h1 {
         font-size: 80px;
     }

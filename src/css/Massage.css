@@ -35,3 +35,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 500px) {
+    .massage-service {
+        width: 300px;
+    }
+}

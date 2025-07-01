@@ -13,3 +13,11 @@
     line-height: 10px;
     margin-top: 30px;
 }
+
+@media (max-width: 800px) {
+    .extra-info p {
+        max-width: 300px;
+        margin: 0px auto;
+        line-height: 20px;
+    }
+}

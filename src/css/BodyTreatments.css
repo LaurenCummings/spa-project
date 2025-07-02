@@ -37,4 +37,8 @@
     .body-treatment-service {
         flex-direction: column;
     }
+
+    .body-treatment-service img {
+        margin: 0px;
+    }
 }

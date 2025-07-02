@@ -42,3 +42,9 @@
         margin: 0px;
     }
 }
+
+@media (max-width: 400px) {
+    .body-treatment-service img {
+        height: 175px;
+    }
+}

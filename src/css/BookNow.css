@@ -171,3 +171,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 400px) {
+    .calendar {
+        width: 300px;
+    }
+}

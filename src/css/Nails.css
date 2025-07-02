@@ -39,3 +39,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 400px) {
+    .nail-treatment {
+        width: 250px;
+    }
+}
